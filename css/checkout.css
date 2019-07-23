@@ -1,0 +1,19 @@
+
+body {
+    background-color: #F8F9FA;
+}
+
+#header-logo {
+    width: 100px;
+    height: 100px;
+}
+
+#header-logo-title {
+    color: #D4433E;
+    padding-bottom: .3rem;
+}
+
+#checkout-button {
+    background-color: #D4433E;
+    border-color: #D4433E;
+}

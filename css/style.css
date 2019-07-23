@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.course-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #4F4F4F;
+}
+
+.red-underline-center::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding-top: 10px;
+    border-bottom: 3px solid #EB5757;
+}
+
+.card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    margin-bottom: 15px;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+strong {
+    font-weight: 800;
+}
+
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+.fa-clock-o {
+    padding-right: .3rem;
+}
+
+.track-tagline {
+    color: #4F4F4F;
+    font-weight: 800 !important;; 
+    line-height: 1.4375em;
+    font-size: 1em;
+    margin-bottom: 0.9375em;
+    padding: 0.9375em 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.track_info {
+    line-height: 1.4375em;
+    font-size: 1em;
+    color: #4f4f4f;
+    margin-bottom: 0.625em;
+}
+
+.btn {
+    outline: none;
+    color: white;
+}
+
+.btn:hover {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+.btn-info {
+    border-color: none;
+}
+
